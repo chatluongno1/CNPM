@@ -121,9 +121,10 @@ public class PersonalTaskManager {
         return task;
     }
 
+    // Chạy thử chương trình
     public static void main(String[] args) {
         PersonalTaskManager manager = new PersonalTaskManager();
-        
+
         System.out.println("\nThêm nhiệm vụ hợp lệ:");
         manager.addTask("Mua sách", "Sách Công nghệ phần mềm.", "2025-07-20", "Cao");
 
